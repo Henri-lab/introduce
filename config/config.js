@@ -79,12 +79,10 @@ var config = {
      * 通过查看实际效果以调整字题长度
      */
     portfolio: [
-        ["./images/czmtool.png", "https://github.com/Henri-lab/czm_dev_helper", "Cesium二次开发框架", "智慧项目常用功能的系统性封装,采用ES6模式<br>正在火热开发中"],
-        ["./images/metro.png", "https://github.com/Henri-lab/openLayer-weather", "智慧地铁项目", "采用Cesium编写的小型项目"],
-        ["./images/vuejs.png", " https://github.com/Henri-lab/Vue-note", "Vue设计实现", "这里记录了我的Vue源码学习笔记<br>持续更新"],
-        ["./images/LeetCode2.png", "https://github.com/Henri-lab/leecodeBasic", "leetcode题目代码和笔记", '采用C++编写<br>持续更新'],
-        ["./images/weather.png", "https://github.com/Henri-lab/openLayer-weather", "天气查询项目", "采用Vue3编写的天气查询项目"],
-        ["./images/express.png", "https://github.com/Henri-lab/express-smart-traffic", "nodeJS后端快速搭建", '采用Express.js/Mysql快速构建的用户管理后台']
+        ["./images/czmtool.png", "https://github.com/Henri-lab/czm_dev_helper", "Cesium二次开发框架", "智慧项目常用功能的系统性封装,采用ES6模式<br>刚开坑"],
+        ["./images/metro.png", "https://github.com/Henri-lab/cesiumMetroWuhan", "智慧地铁项目", "采用Cesium+Vue3编写的小型前后端分离项目"],
+        ["./images/weather.png", "https://github.com/Henri-lab/openLayer-weather", "天气查询项目", "采用Openlayer+Vue3编写的天气查询项目"],
+        ["./images/weather.png", "https://github.com/Henri-lab/smart-traffic-usermanageReact", "智慧交通用户管理", "采用Openlayer+React编写的用户地图管理项目"],
     ],
 
 
@@ -97,21 +95,13 @@ var config = {
         //如果您内有工作经历，您可以采取下列写法
         // ["————————", "", "<p>暂无工作经历，期待您的联系。</p>"]
 
-        ["2022/7/1 — 2023/8/10", "<br>A公司实习生",
+        ["2023/09 — 2024/06", "<br>陕西河汉九天科技有限公司前端开发",
             "<p><strong>A公司研发部</strong></p>" +
-            "<p>使用Python编写脚本进行数据清洗和预处理，确保科研数据的准确性和一致性。</p> " +
-            "<p>利用Pandas、NumPy等数据处理库对大规模数据集进行整理和转换，提升数据处理效率。</p>" +
-            "<p>使用ArcGIS软件绘制矢量图形，辅助地理空间数据分析，提升地理信息系统（GIS）研究的精度。</p>" +
-            "<p>处理和分析栅格数据，生成高质量的地理空间分析报告，为科研项目提供数据支持。</p>"
+            "<p>编写Python脚本，使用Pandas和NumPy库进行数据清洗和预处理，使用ArcGIS API、MongoDB进行地理空间数据的处理和分析。</p> " +
+            "<p>参与设计和优化数据库结构。</p>" +
+            "<p>通过Vue前端框架和Cesium、Three等WebGL可视化库进行3D渲染。</p>" +
+            "<p>利用Element、ECharts，DataV等UI库创建交互式界面，将复杂的数据分析结果以直观的形式展示给业务团队，支持公司的战略决策。</p>"
         ],
-
-        ["2020/7/1 — 2021/8/10", "<br>B公司实习生",
-            "<p><strong>B公司研发部</strong></p>" +
-            "<p>参与智慧地铁管理与乘客服务平台项目的前端开发，负责页面布局、样式设计及交互效果的实现，确保用户界面的美观和易用性。</p>" +
-            "<p> 使用HTML、CSS、JavaScript，Vue3，Axios和UI库等前端技术。利用Express后端框架和地理数据处理库，进行数据的查询和修改。</p>" +
-            "<p> 与后端开发团队紧密合作，制定数据接口规范，进行前后端数据交互的实现和调试，确保数据传输的准确性和高效性。</p>" +
-            "<p> 进行跨浏览器和跨设备的兼容性测试, 编写和维护项目的前端开发文档。</p>"
-        ]
     ],
 
 
@@ -120,7 +110,11 @@ var config = {
      * ["日期"， "经历"， "介绍"]
      * 建议填写您的校级及以上得奖经历或或其他证书
      */
-    others: [],
+    others: [
+        ['2018/11','在入学期间，主导了学校年度班级汇报表演的筹备和组织工作，从联系演出团队到策划活动流程，再到现场的管理和协调，我全程参与并确保活动顺利进行','这次经历让我学会了如何在高压环境下有效组织和管理团队，也让我对活动策划和执行有了更深的理解'],
+        ['2019/10','志愿参加学院教授组织的野外研究活动,研究目标区域的地层概况和历史气候，还亲手挖到了许多古生物化石','这个项目让我了解人工智能在古生物领域的无限潜力'],
+        ['2021/03','参与了一个关于环境法的线上研究项目。我们主要研究了环境法在不同国家的实施情况，并撰写了一份详细的研究报告。尽管这份报告未发表，但我在此过程中学到了很多关于环境保护和法律执行的知识','不仅拓宽了我的法律视野，也让我结识了许多志同道合的朋友。']
+    ],
 
 
     /**
@@ -134,6 +128,7 @@ var config = {
     icon: [
         ["./svg/github.svg", "https://github.com/Henri-lab", "我的GitHub主页"],
         ["./svg/LeetCode.svg", "https://leetcode.com/u/Henri-lab/", "我的力扣主页"],
+        ["./svg/csdn.png", "https://blog.csdn.net/m0_46543935", "我的CSDN主页"],
     ],
 
 
