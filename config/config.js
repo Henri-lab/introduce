@@ -41,17 +41,17 @@ var config = {
     * ["技能点", 掌握程度, "技能条颜色"]
     */
     skills: [
-        ["JavaScript/TypeScript", 90, "yellow"],
+        ["JavaScript/TypeScript", 85, "yellow"],
         ["HTML5", 90, "	#FF8C00"],
-        ["CSS3", 90, "red"],
-        ["Vue3", 90, "green"],
-        ["Cesium", 90, "#00FF00"],
-        ["Three", 80, "	#48D1CC"],
-        ["Openlayer", 70, "#1abc9c"],
-        ["webGL/shader", 60, "#FF00FF"],
+        ["CSS3", 80, "red"],
+        ["Vue3", 85, "green"],
+        ["Cesium", 80, "#00FF00"],
+        ["Three", 75, "	#48D1CC"],
+        ["Openlayer", 80, "#1abc9c"],
+        ["webGL/shader", 30, "#FF00FF"],
         ["React", 40, "blue"],
-        ["Java/spring框架", 30, "#D2691E"],
-        ["C++", 10, "#E6E6FA"],
+        ["NoSQL", 50, "#D2691E"],
+        ["SQL", 60, "#E6E6FA"],
     ],
 
 
@@ -67,7 +67,9 @@ var config = {
         "     <li>熟练使用Git进行版本控制，能够进行团队协作和代码管理。</li>" +
         "     <li>了解基本数据结构和算法,计算机网络</li>" +
         "     <li>了解Java的Spring和Ruoyi框架</li>" +
-        "     <li>了解Python，能够进行数据处理、分析和自动化脚本开发 </li>" +
+        "     <li>了解React、Redux的基本使用</li>" +
+        "     <li>熟悉Python，能够进行数据处理、分析和自动化脚本开发 </li>" +
+        "     <li>熟悉常用数据库mysql、MongoDB</li>" +
         " </ul>",
 
 
@@ -81,7 +83,7 @@ var config = {
         ["./images/czmtool.png", "https://github.com/Henri-lab/czm_dev_helper", "Cesium二次开发框架", "智慧项目常用功能的系统性封装,采用ES6模式<br>刚开坑"],
         ["./images/metro.png", "https://github.com/Henri-lab/cesiumMetroWuhan", "智慧地铁项目", "采用Cesium+Vue3编写的小型前后端分离项目"],
         ["./images/weather.png", "https://github.com/Henri-lab/openLayer-weather", "天气查询项目", "采用Openlayer+Vue3编写的天气查询项目"],
-        ["./images/weather.png", "https://github.com/Henri-lab/smart-traffic-usermanageReact", "智慧交通用户管理", "采用Openlayer+React编写的用户地图管理项目"],
+        ["./images/traffic.png", "https://github.com/Henri-lab/smart-traffic-usermanageReact", "智慧交通用户管理", "采用Openlayer+React编写的用户地图管理项目"],
     ],
 
 
@@ -127,7 +129,7 @@ var config = {
     icon: [
         ["./svg/github.svg", "https://github.com/Henri-lab", "我的GitHub主页"],
         ["./svg/LeetCode.svg", "https://leetcode.com/u/Henri-lab/", "我的力扣主页"],
-        ["./svg/csdn.png", "https://blog.csdn.net/m0_46543935", "我的CSDN主页"],
+        ["./svg/csdn.svg", "https://blog.csdn.net/m0_46543935", "我的CSDN主页"],
     ],
 
 
