@@ -83,7 +83,7 @@ var config = {
         ["./images/czmtool.png", "https://github.com/Henri-lab/czm_dev_helper", "Cesium二次开发框架", "智慧项目常用功能的系统性封装,采用ES6模式<br>刚开坑"],
         ["./images/metro.png", "https://github.com/Henri-lab/cesiumMetroWuhan", "智慧地铁项目", "采用Cesium+Vue3编写的小型前后端分离项目"],
         ["./images/weather.png", "https://github.com/Henri-lab/openLayer-weather", "天气查询项目", "采用Openlayer+Vue3编写的天气查询项目"],
-        ["./images/traffic.png", "https://github.com/Henri-lab/smart-traffic-usermanageReact", "智慧交通用户管理", "采用Openlayer+React编写的用户地图管理项目"],
+        // ["./images/traffic.png", "https://github.com/Henri-lab/smart-traffic-usermanageReact", "智慧交通用户管理", "采用Openlayer+React编写的用户地图管理项目"],
     ],
 
 
